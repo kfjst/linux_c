@@ -7,4 +7,4 @@ relayer:main.o relayer.o
 	gcc $^ -o $@ $(CFLAGS) $(LDFLAGS)
 
 clean:
-	rm -rf *.0 relayer
+	rm -rf *.o relayer
